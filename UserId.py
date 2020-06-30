@@ -1,7 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[57]:
 
 
 def userId(first,last,pin,n):
@@ -19,21 +15,21 @@ def userId(first,last,pin,n):
             else:
                 smaller=last
                 longer=first
-    
+
     lst=[x for x in str(pin)]
     m=''
     for i in range(len(lst)):
         if i==n:
-            m=m+lst[i-1] 
+            m=m+lst[i-1]
 
     l=''
     rev=list(reversed(lst))
     for j in range(len(rev)):
         if j==n:
             l=l+rev[j-1]
-    
+
     userId=longer[0]+smaller+str(m)+str(l)
-    print(userId.swapcase())  
+    print(userId.swapcase())
 
 first=input()
 last=input()
@@ -41,10 +37,3 @@ pin=int(input())
 n=int(input())
 
 userId(first,last,pin,n)
-
-
-# In[ ]:
-
-
-
-
