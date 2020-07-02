@@ -19,53 +19,81 @@ and a Number N.
 	Second digit would be Nth Position from right of Pin Number.
 
 ### The UserId Generation
-userid= "fist letter of longer name"+ "smaller name"+ fisrt digit + second digit
+
+userid= "fist letter of longer name"+ "smaller name"+ first digit + second digit
 
 And , atlast toggle the obtained userid (Swap the cases).
 
 
 #### Example:
 
-1. fist name =Krishan
+1. first name =Krishan
+
     last name = Pandey
+
     pin number =12345678
+
     N=4
+
     ##### Explaination:
+
 	since First name is longer in length than last name.
+
 	And extract 4th digit from left and 4th digit from right of the pin number.
+
 	from left = 4
+
 	from right = 5
 
 	userid= KPandey45
+
 	Atlast swap the cases and final userid becomes =kpANDEY45
 
-2. fist name =Kunal
+2. first name =Kunal
+
     last name = Pandey
+
     pin number =98765432
+
     N=5
+
     ##### Explaination:
+
 	since First name is smaller in length than last name.
+
 	And extract 5th digit from left and 5th digit from right of the pin number.
+
 	from left = 5
+
 	from right = 6
 
 	userid= PKunal56
+
 	Atlast swap the cases and final userid becomes =pkUNAL56
 
-3.fist name =Kunal
+3.first name =Kunal
+
     last name = Kumar
+
     pin number =98763450
+
     N=7
+
     ##### Explaination:
+
 	since First name and last name both are equal in length.
+
 	Then alphabetical order would come in the picture. And hence Last name is smaller and first name is longer 
 	as in Kumar m comes first than n in Kunal.
 
 	And extract 7th digit from left and 7th digit from right of the pin number.
+
 	from left = 5
+
 	from right = 8
 
 	userid= KKumar58
+
 	Atlast swap the cases and final userid becomes =kkUMAR58
 
 
