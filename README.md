@@ -15,7 +15,9 @@ and a Number N.
 2. If first name is smaller than last name  set first name as smaller name and last name as longer name
 3. If both are equal in length then which comes first in alphabatical order would be termed as smaller name.
 4. Extract two digits out of pin number with the help of N.
+
 	First digit would be extracted such way that it comes at Nth position from left in the Pin Number.
+
 	Second digit would be Nth Position from right of Pin Number.
 
 ### The UserId Generation
@@ -71,7 +73,7 @@ And , atlast toggle the obtained userid (Swap the cases).
 
 	Atlast swap the cases and final userid becomes =pkUNAL56
 
-3.first name =Kunal
+3. first name =Kunal
 
     last name = Kumar
 
